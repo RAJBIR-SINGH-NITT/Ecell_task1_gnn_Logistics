@@ -1,16 +1,25 @@
-# React + Vite
+# GNN Logistics Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive landing page for GNN Logistics Inc.
 
-Currently, two official plugins are available:
+# Tech Stack
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- Google Sheets (form)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Setup
+1. npm install
+2. npm run dev
 
-## React Compiler
+# Live Site
+https://gnn-logistics-rajbir.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# AI_prompts
+1. Fix Tailwind @tailwind unknown at-rule error
+2. Suggest professional color palette for logistics company
+3. Create responsive React Navbar with Tailwind
+4. Build contact form that submits to Google Sheets
+5. Add Framer Motion animations to hero section
+6. Make landing page sections smooth-scrollable
+7. Update all components to professional navy and amber theme
